@@ -4,12 +4,6 @@
   "keywords": [
     "chausat"
   ],
-  "env": {
-	  "port": {
-		  "description": "frp server port",
-		  "value": 10070
-	  }
-  },
   "repository": "https://github.com/RyanCao/frp-heroku",
   "stack": "container"
 }

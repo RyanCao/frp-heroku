@@ -4,8 +4,7 @@ cd /frps
 
 cat <<-EOF > /frps/frps.ini
 [common]
-bind_port = ${port}
-bind_udp_port = ${port}
+bind_port = $PORT
 EOF
 
 echo $PORT
